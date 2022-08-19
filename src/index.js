@@ -52,7 +52,7 @@ function registerKeyboardEvents() {
                     state.currentRow++;
                     state.currentCol = 0;
                 } else {
-                    alert("Ordet var ugyldigt.")
+                    alert("Not a word.")
                 }
             }
         }
@@ -102,9 +102,9 @@ function revealWord(guess) {
     
     setTimeout(() => {
         if (isWinner) {
-            alert("Du vandt.");
+            alert("You won.");
         } else if (isGameOver) {
-            alert(`Du tabte (taber). Ordet var: ${state.secret}.`);
+            alert(`You lost (loser), the word was: ${state.secret}.`);
         }
     }, 3 * animation_duration);
 }
