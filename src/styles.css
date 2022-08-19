@@ -11,12 +11,11 @@ body {
 }
 
 .header {
-  padding: 10px;
   text-align: center;
   background: solid var(--default);
-  border: 2px solid var(--empty);
+  border-bottom: 2px solid var(--empty);
   color: white;
-  font-size: 30px;
+  font-size: 150%;
 }
 
 #game {
