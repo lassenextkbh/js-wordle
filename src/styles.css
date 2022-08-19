@@ -18,6 +18,14 @@ body {
   font-size: 150%;
 }
 
+.footer {
+  text-align: center;
+  background: solid var(--default);
+  border-top: 2px solid var(--empty);
+  color: white;
+  font-size: 80%;
+}
+
 #game {
   display: flex;
   justify-content: center;
